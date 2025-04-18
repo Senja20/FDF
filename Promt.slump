@@ -1,6 +1,6 @@
 #!/bin/bash
 #SBATCH --partition=GPUQ
-#SBATCH --account=share-ie-idi
+#SBATCH --account=<ACCOUNT-NAME-HERE>
 #SBATCH --time=9-99:99:99
 #SBATCH --nodes=1
 #SBATCH --ntasks-per-node=4
