@@ -49,7 +49,7 @@ pip install diffusers transformers accelerate scipy safetensors
 export PYTORCH_CUDA_ALLOC_CONF="expandable_segments:True"
 
 
-python ./generate_prompts.py
+python generate_prompts.py --images_folder /path/to/images --output_file prompts.json
 
 deactivate
 rm -rf "$VENV_DIR"
